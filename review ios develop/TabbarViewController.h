@@ -48,11 +48,11 @@
 }
 
 
-@property (weak, nonatomic) IBOutlet UIImageView *tabbarBgImgView;
-
 @property (weak, nonatomic) IBOutlet UIView *tabbarView;
 
+
 @property (nonatomic, strong) NSArray *viewControllers;
+@property (weak, nonatomic) IBOutlet UIImageView *tabbarBgImgView;
 
 @property (nonatomic, assign) NSInteger currentIndex;
 

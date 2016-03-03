@@ -7,8 +7,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabbarViewController">
             <connections>
-                <outlet property="tabbarBgImgView" destination="Jbe-BY-nvT" id="GPZ-8F-Jot"/>
-                <outlet property="tabbarView" destination="Bg5-Ry-nhk" id="8pP-v6-qY9"/>
+                <outlet property="allContentView" destination="QMk-Aw-y02" id="2bV-SZ-Y6H"/>
+                <outlet property="tabbarBgImgView" destination="ER5-xD-GZI" id="QZh-I7-0ba"/>
+                <outlet property="tabbarView" destination="TEa-Fe-0ag" id="O4g-je-Ddb"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,19 +18,25 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" id="Bg5-Ry-nhk">
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="Via-Nh-z51">
+                    <rect key="frame" x="191" y="242" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </activityIndicatorView>
+                <view contentMode="scaleToFill" id="QMk-Aw-y02">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Jbe-BY-nvT">
-                            <rect key="frame" x="0.0" y="483" width="320" height="85"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="ER5-xD-GZI">
+                            <rect key="frame" x="0.0" y="437" width="320" height="99"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
+                        <view contentMode="scaleToFill" id="TEa-Fe-0ag">
+                            <rect key="frame" x="0.0" y="437" width="320" height="99"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <accessibility key="accessibilityConfiguration" label="aaaa">
-                        <bool key="isElement" value="YES"/>
-                    </accessibility>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

@@ -125,13 +125,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
+   
     self.currentIndex =0;
     [self changeVCWithindex:self.currentIndex];
     
     self.tabbarBgImgView.userInteractionEnabled = YES;
+    
+ 
+    
     self.allContentView.backgroundColor = [UIColor blackColor];
+    
     self.tabbarView.frame = CGRectMake(0, self.allContentView.height - TabbarViewHeight, self.allContentView.width, TabbarViewHeight);
+    
     UIImage *tabbarImg = [UIImage imageNamed:@"tabbar底"];
     tabbarImg = [tabbarImg resizableImageWithCapInsets:UIEdgeInsetsMake(10, 10, 10, 10)];
     self.tabbarBgImgView.image = tabbarImg;
@@ -139,6 +144,7 @@
     
     
     //alloc init items
+    
     NSArray *nomalIcons = @[@"tabbar课表",@"tabbar课程"];
     NSArray *hIcons = @[@"tabbar课表按下",@"tabbar课程按下"];
     NSArray *titles = @[CSLocalizedString(@"tab_VC_clasListText"),CSLocalizedString(@"tab_VC_courseText")];
