@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import <CoreData/CoreData.h>
+#import "TabbarViewController.h"
+#import "BasicNavigationController.h"
+
 
 @interface AppDelegate ()
 

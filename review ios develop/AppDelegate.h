@@ -7,11 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
-#import "BasicNavigationController.h"
-#import "TabbarViewController.h"
 
-#import "TestButtonTouchController.h"
 
 @class BasicNavigationController;
 
