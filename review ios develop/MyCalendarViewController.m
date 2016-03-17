@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self.titleView setTitleText:@"test" withTitleStyle:CTitleStyle_Home ];
     
     
     // Do any additional setup after loading the view from its nib.

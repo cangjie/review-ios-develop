@@ -14,7 +14,9 @@
 @interface BasicViewController : UIViewController<TitleViewDelegate>
 
 @property (nonatomic, strong) UIViewController *tabbarVC;  /*使用此属性代替原有导航<>*/
+
 @property (nonatomic,retain) IBOutlet TitleView *titleView;
+
 @property (nonatomic,retain) IBOutlet UIView *allContentView;
 
 - (void)resetHttp;
